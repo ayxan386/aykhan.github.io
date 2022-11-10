@@ -15,6 +15,8 @@ window.onload = () => {
       projects.push(`<a href='${el.glitch}'target="_blank">Glich</a>`);
     if (el.codepen)
       projects.push(`<a href='${el.codepen}'target="_blank">Codepen</a>`);
+      if (el.link)
+      projects.push(`<a href='${el.link}'target="_blank">Link</a>`);
     projects.push("</div>");
     projects.push("</div>");
   });
@@ -33,6 +35,8 @@ function show(index) {
     html.push(`<a href='${project.glitch}'target="_blank">Glitch</a>`);
   if (project.codepen)
     html.push(`<a href='${project.codepen}'target="_blank">Codepen</a>`);
+    if (project.codepen)
+    html.push(`<a href='${project.link}'target="_blank">Link</a>`);
   html.push("</div>");
 
   html.push("<div class='tags'>");

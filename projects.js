@@ -1,5 +1,11 @@
 const data = [
   {
+    name: "Loyalty System for ABB mobile APP",
+    src: "./assets/ABB-Loyalty.jpg",
+    link: "https://play.google.com/store/apps/details?id=iba.mobilbank&pli=1",
+    tags: ["java", "spring-boot", "spring-data", "SQL", "Kafka", "Redis"]
+  },
+  {
     name: "Recipe sharing web",
     src: "./assets/recipe-sharing.png",
     github: "https://github.com/ayxan386/recipe-sharing-app",
